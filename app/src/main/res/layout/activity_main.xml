@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbCantidadCochesMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Coches: 0"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btnCrearCocheMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Crear Coche" />
+
+    <TextView
+        android:id="@+id/lbCantidadMotosMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Motos: 0"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btnCrearMotoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="crear moto" />
+
+    <TextView
+        android:id="@+id/lbCantidadBicisMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Bicis: 0"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btnCrearBiciMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Crear bici" />
+</LinearLayout>
